@@ -17,5 +17,10 @@
   "devDependencies": {
     "nodemon": "1.18.4"
   },
-  "keywords": []
+  "keywords": [],
+  "renovate": {
+    "extends": [
+      "github>Marfeel/renovate-config:widget-providers"
+    ]
+  }
 }
